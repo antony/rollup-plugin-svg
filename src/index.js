@@ -19,7 +19,10 @@ export default function svg (options = {}) {
         return null
       }
 
-      const content = code.trim()
+      let content = code.trim()
+      if (options.removeWhitespace) {
+        content = content.replace(/\s/g, '')
+      }
       const encoded = options.base64 ? toDataUrl(content) : JSON.stringify(content)
 
       return { code: `export default ${encoded}`, map: { mappings: '' } }
