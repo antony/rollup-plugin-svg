@@ -45,6 +45,12 @@ Defaults to false.
 
 Bas64 encoded SVGs will be 33% larger than the size on disk. You should therefore only use this for small images where the convenience of having them available on startup (e.g. rendering immediately to a canvas without co-ordinating asynchronous loading of several images) outweighs the cost.
 
+### removeWhitespace
+
+Defaults to false.
+
+Remove all whitespace from SVG markup
+
 ## Sources
 
 This plugin was built (based on the rollup-plugin-image plugin) because it appears that the two existing suitable plugins:
