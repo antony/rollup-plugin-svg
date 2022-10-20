@@ -43,7 +43,7 @@ document.body.appendChild( logo )
 
 Defaults to false.
 
-Bas64 encoded SVGs will be 33% larger than the size on disk. You should therefore only use this for small images where the convenience of having them available on startup (e.g. rendering immediately to a canvas without co-ordinating asynchronous loading of several images) outweighs the cost.
+Base64 encoded SVGs will be 33% larger than the size on disk. You should therefore only use this for small images where the convenience of having them available on startup (e.g. rendering immediately to a canvas without co-ordinating asynchronous loading of several images) outweighs the cost.
 
 ## Sources
 
