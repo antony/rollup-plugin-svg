@@ -4,6 +4,7 @@
   "description": "Import SVG images",
   "main": "dist/rollup-plugin-svg.cjs.js",
   "module": "dist/rollup-plugin-svg.esm.js",
+  "types": "dist/rollup-plugin-svg.d.ts",
   "files": [
     "dist",
     "README.md"
