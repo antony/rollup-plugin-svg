@@ -20,7 +20,6 @@ export default function svg(options: RollupSvgOptions = {}): Plugin {
 
   return {
     name: "svg",
-
     transform(code: string, id: string) {
       if (!filter(id) || extname(id) !== ".svg") {
         return null;
